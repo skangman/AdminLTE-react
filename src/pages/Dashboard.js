@@ -1,14 +1,15 @@
 import Template from "../components/Template";
-function Home() {
+
+function Dashboard() {
     return (
         <>
             <Template>
                 <div className="card">
-                    <div className="card-body">Home</div>
+                    <div className="card-body">Dashboard</div>
                 </div>
             </Template>
         </>
     )
 }
 
-export default Home;
+export default Dashboard;

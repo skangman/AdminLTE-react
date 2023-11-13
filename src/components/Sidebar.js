@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Sidebar() {
     return (
         <>
@@ -40,16 +41,16 @@ function Sidebar() {
                                 </a>
                                 <ul class="nav nav-treeview">
                                     <li class="nav-item">
-                                        <a href="./index.html" class="nav-link active">
+                                        <Link to="/dashboard" class="nav-link active">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Dashboard v1</p>
-                                        </a>
+                                            <p>Dashboard</p>
+                                        </Link>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="./index2.html" class="nav-link">
+                                        <Link to="/home" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Dashboard v2</p>
-                                        </a>
+                                            <p>Home</p>
+                                        </Link>
                                     </li>
                                     <li class="nav-item">
                                         <a href="./index3.html" class="nav-link">
