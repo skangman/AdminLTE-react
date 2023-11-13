@@ -4,7 +4,7 @@ function Home() {
         <>
             <Template>
                 <div className="card">
-                    <div className="card-body">TEST</div>
+                    <div className="card-body">TEST1</div>
                 </div>
             </Template>
         </>
